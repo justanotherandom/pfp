@@ -1,0 +1,50 @@
+HTML (HYPERTEXT MARKUP LANGUAGE)
+    • Linguagem de Marcação.
+    • Não funciona com instruções (como toda linguagem de programação), e sim é baseada em marcações chamadas tags, que comandam tudo.
+    • O termo programação envolve estruturas especializadas que dependem do uso de variáveis simples e compostas, condições, laços e até coisas mais complexas como objetos.
+    • Nada disso existe em HTML e CSS.
+    • Existem em JavaScript.
+    • HTML trabalha fundamentada apenas marcas ou etiquetas, enquanto CSS funcionam baseadas nos seletores, propriedades e valores.
+
+    • Uma tag é um conjunto de palavras entre sinais de colchete angular:
+    • <p> Exemplo de parágrafo </p>.
+    • A maioria das tags possui abertura e fechamento, que é identificado pela presença da barra no fechamento da tag.
+    • As tags também podem ter atributos e valores, que vão configurar seu comportamento:
+<a (abertura da tag) href(parâmetro)=”destino.html”(valor)> Exemplo de link (conteúdo) </a>
+    • Algumas tags não possuem a necessidade de conteúdo interno e por isso não possuem fechamento, como <br> e <img>.
+    • NÃO USE TAGS OBSOLETAS NO SEU SITE.
+
+
+
+CHEGOU A VEZ DOS SELETORES CSS
+    • Cascading Style Sheets (folhas de estilo em cascata), que são usadas para configurar um resultado visual dos elementos HTML.
+    • As configurações das CSS são realizadas através dos seletores.
+
+    • O seletor apresentado anteriormente vai configurar o visual dos elementos de parágrafo do site corrente. O uso das chaves delimita todas as declarações relativas ao seletor atual.
+    • Ao fim de cada declaração, temos que colocar ponto-e-vírgula para indicar que ela se encerrou.
+    • Todas as propriedades devem ter seu valor, que devem ser separados por dois pontos.
+
+
+ESTRUTURA BÁSICA DE UM DOCUMENTO HTML
+
+    • Ao criar um novo documento HTML, devemos sempre escrever a estrutura básica de  um documento desse formato, composto de 11 linhas.
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-=device-width, initial-scale=1.0">
+    <title> DOCUMENTO </title>
+</head>
+<body>
+
+</body>
+</html>
+    • Linha 1: indica que o documento atual será escrito na versão mais atualizada da linguagem (no caso, HTML5).
+    • Linhas 2 e 11: delimitam o documento HTML, que é sempre dividido em duas partes: a cabeça e o corpo. Na linha 2, também estamos indicando que o conteúdo desse site será no idioma pt-bt.
+    • Linhas 3 e 7: delimitam a cabeça da página, local onde são realizadas algumas configurações iniciais como formatos, estilos, ícone de favoritos, etc.
+    • Linha 4: adiciona ao documento atual o suporte a caracteres acentuados.
+    • Linha 5: indica que o conteúdo aparecerá, por padrão, ocupando todo o espaço disponível da tela e com uma escala de 1:1.
+    • Linha 6: configura o título da página, que aparecerá como identificação da aba do navegador, ao lado do favicon.
+    • Linha 8 e 10: delimitam o corpo da página, a maior porção do site, que vai aparecer na tela.
+    • 
+
